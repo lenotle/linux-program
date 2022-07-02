@@ -1,0 +1,15 @@
+syntax="proto3";
+
+package T;
+
+message Student
+{
+    int32 id = 1;
+    bytes name = 2;
+    double score = 3;
+}
+
+message Stus 
+{
+    repeated Student stus = 4;
+}
